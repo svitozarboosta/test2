@@ -1,8 +1,8 @@
 /*
 !.gitignore
-!/plugins
-/plugins/*
-!/plugins/Cron-Mailer
 !/themes
 /themes/*
 !themes/theme
+!/plugins
+/plugins/*
+!/plugins/Cron-Mailer
