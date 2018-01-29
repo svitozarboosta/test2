@@ -1,0 +1,43 @@
+<div class="signup" id="signup">
+    <div class="signup__close">
+        <svg>
+            <use xlink:href="/wp-content/themes/theme/assets/img/sprite.svg#ico-close"></use>
+        </svg>
+    </div>
+    <div class="signup__left">
+        <div class="signup__title">Sign in</div>
+        <form class="signup__form" id="signup_form">
+            <div class="signup__input">
+                <input type="email" name="log">
+                <div class="signup__placeholder">Email</div>
+            </div>
+            <div class="signup__input">
+                <input type="password" name="pwd">
+                <div class="signup__placeholder">Password</div>
+            </div>
+            <input type="hidden" name="_wpnonce" value="#wpnonce_log#">
+            <input type="hidden" name="action" value="login_user">
+            <input type="submit" value="Sign in">
+            <a class="forgot_link" href="#forgot_link#">forgot password?</a>
+            <div id="login_result"></div>
+        </form>
+    </div>
+    <div class="signup__right">
+        <div class="signup__title">Sign up</div>
+        <form class="signup__form" id="register_user">
+            <div class="signup__input">
+                <input type="email" name="email">
+                <div class="signup__placeholder">Email</div>
+            </div>
+            <input type="hidden" name="action" value="register_user">
+            <input type="hidden" name="_wpnonce" value="#wpnonce#">
+            <input type="submit" value="Sign up">
+            <div class="signup__divider"> - or - </div>
+            <a class="button" href="#fb_url#">
+                <svg>
+                    <use xlink:href="/wp-content/themes/theme/assets/img/sprite.svg#ico-facebook"></use>
+                </svg>#fb_btn#</a>
+            <div id="result"></div>
+        </form>
+    </div>
+</div>

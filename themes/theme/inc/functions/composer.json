@@ -1,0 +1,8 @@
+{
+    "require": {
+        "paypal/rest-api-sdk-php": "*",
+        "aws/aws-sdk-php": "^3.31",
+        "smalot/pdfparser": "^0.11.0",
+        "phpoffice/phpword": "dev-develop"
+    }
+}
